@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Libro de Reclamos</title>
+<link rel="stylesheet" href="../estilos/textentrada.css" type="text/css">
+</head>
+<body>
+<div class="datos">
+	<form action="https://localhost/comprobar.php" method="post"/>
+	<h1> LIBRO DE RECLAMACIONES </h1>
+	<h2> Ingresa tu reclamo </h2>
+	<br>
+		<p>
+		Nombre: <input type="text" name="nombre" placeholder="Ingrese su nombre" />  <br>
+		Apellidos: <input type="text" name="apellidos" placeholder="Ingrese sus apellidos" size="40"/>   <br>
+		e-mail: <input type="text" name="email" placeholder="Ingrese su e-mail" size="35"/>  <br>
+	
+		sexo<br>
+		<input type="radio" name="sexo" value="Masculino" id="masculino"/> 
+		<label for="masculino">Masculino</label><br>
+		<input type="radio" name="sexo" value="Femenino" id="femenino"/> 
+		<label for="femenino">Femenino</label><br>
+		</p>
+
+		Ciclo de estudios:<br/>
+		<input type="text" name="ciclo" placeholder="Ingrese su ciclo de estudio"/>   <br>
+		Código de estudiante:<br/>
+		<input type="text" name="codigo" placeholder="Ingrese codigo de estudiante"/>    <br>
+
+		El problema no ocurrió en la sede presencial: <br/>
+		<input type="checkbox" name="telefono" id="telf"/> 
+		<label for="telf">Teléfono</label><br/>
+		<input type="checkbox" name="chat" id="cha"/> 
+		<label for="cha">Chat</label><br/>
+		<input type="checkbox" name="pagina" id="pag"/> 
+		<label for="pag">Página de la entidad</label><br/>
+		<input type="checkbox" name="correo" id="corr"/> 
+		<label for="corr">Correo</label><br/>
+
+		<p>
+		¿Cuándo ocurrió la situación que origina el reclamo? <br>
+		<input type="date" name="fecha"> <br>
+		¿Apróximadamente a que hora sucedió? <br>
+		<input type="time" name="hora">
+		</p>
+		<p>Trataron de darte una solución antes del registro del reclamo: <br>
+		<input type="radio" name="solucion" value="si" /> Si<br/>
+		<input type="radio" name="solucion" value="no"/> No <br>
+		</p>
+		<p>Describenos, ¿Qué sucedió?: <br/>
+		<textarea name="comentario" rows="5" cols="60">Comentario: </textarea>
+		<br>
+		<br>
+		<p><input type="submit" value="ENVIAR"> 
+		<input type="reset" value="BORRAR DATOS"></p>
+	</form>
+</div>
+</body>
+</html>

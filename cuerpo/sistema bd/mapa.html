@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Biblioteca UNFV</title>
+	<meta name="Keywords" content="unfv,biblioteca,virtual" />
+	<meta name="Description" content="Biblioteca virtual UNFV"/>
+	<meta http-equiv="Content-Languaje" content="es"/>
+	<meta name="Distribution" content="global" />
+	<meta name="Robots" content="all" />
+	<link rel="stylesheet" type="text/css" href="../estilos/titulos.css" media="screen"/>
+	<style type="text/css">
+		#bd td{width:200px;height:100px}
+		#bd td img{cursor:pointer}
+	</style>
+</head>
+<body marginwidth="60px" leftmargin="60px" background="white">
+	<div class="ct">
+		<br>
+		<div class="cabezera">| <a href="../index3.html">Inicio</a> | Sistema de base de datos</div>
+		<br>
+	</div>
+	<br>
+	<div class="titudiv">
+		<hr>
+		<h2>MAPA DE BASE DE DATOS</h2>
+		<hr>
+	</div>
+	<div align="center" style="background-color:orange">
+		<b><p>Las siguientes bases de datos contienen artículos de investigación, libros, tesis, informes, trabajos
+		de investigación y académicos en acceso abierto de las diferentes áreas del conocimiento.</p></b>
+	</div>
+	<table border="2" id="bd" align="center">
+		<tr>
+			<td><img src="imagenes/redalyc.jpg"onclick="escoger(0)"></td>
+			<td><img src="imagenes/iop.png"onclick="escoger(1)"></td>
+			<td><img src="imagenes/archinform.jpg"onclick="escoger(2)"></td>
+			<td><img src="imagenes/agris.jpg"onclick="escoger(3)"></td>
+			<td><img src="imagenes/agecon.png"onclick="escoger(4)"></td>
+			<td><img src="imagenes/indecopi.png"onclick="escoger(5)"></td>
+		</tr>
+		<tr>
+			<td><img src="imagenes/dialnet.png"onclick="escoger(6)"></td>
+			<td colspan="4" rowspan="2" style="background-color:#64343c"align="center">
+			<div style="background-color:rgba(0,0,0,0.6); color:white">
+				<h3 id="respuesta">Seleccione base de datos</h3>
+			</div>
+			<iframe src="bd/redalyc.html" height="380" width="800" id="ibd"></iframe><br><br>
+			</td>
+			<td><img src="imagenes/alicia.png"onclick="escoger(7)"></td>
+		</tr>
+		<tr>
+			<td><img src="imagenes/trip.jpg"onclick="escoger(8)"></td>
+			<td><img src="imagenes/redib.jpg"onclick="escoger(9)"></td>
+		</tr>
+		<tr>
+			<td><img src="imagenes/scielo.png"onclick="escoger(10)"></td>
+			<td><img src="imagenes/plos.png"onclick="escoger(11)"></td>
+			<td><img src="imagenes/lareferencia.png"onclick="escoger(12)"></td>
+			<td><img src="imagenes/plubin.jpg"onclick="escoger(13)"></td>
+			<td><img src="imagenes/unesco.png"onclick="escoger(14)"></td>
+			<td><img src="imagenes/science.png"onclick="escoger(15)"></td>
+		</tr>
+	</table>
+	<script language="javascript">
+		var bd = ["redalyc","IOP Science","ArchInform",
+		"Agris FAO","AgEcon Search","INDECOPI","Dialnet","Alicia","TRIP Database","REDIB"
+		,"Scielo","Public Library of Science (PLOS)","La Referencia","Publindex","UNESCO","Science Direct"]; 
+		var texto = document.getElementById("respuesta");
+		function escoger(i){
+			texto.innerHTML = bd[i];
+			var url = "bd/"+bd[i]+".html";
+			document.getElementById("ibd").src = url;
+		}
+	</script>
+	<br>
+	<div class="piediv">
+		<br><br>
+		Copyright © 2022 - BRJ - CCJ - Universidad Nacional Federico Villarreal - Programacion Aplicada III
+		<br><br><br>
+	</div>
+</body>
+</html>

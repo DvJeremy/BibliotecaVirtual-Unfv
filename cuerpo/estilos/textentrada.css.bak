@@ -1,0 +1,37 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing:border-box;
+}
+
+body{
+padding-top: 150px;
+background-color: coral;
+}
+
+.datos{
+background-color: white;
+border-radius: 1rem;
+padding: 1rem;
+width: 80%;
+margin: auto;
+}
+
+input{
+width: 30%;
+padding: .3rem;
+margin-bottom: 2rem;
+outline: none;
+}
+
+input[type="submit"]{
+	background-color: black;
+	color: white;
+	padding: 2rem;
+}
+
+input[type="reset"]{
+	background-color: black;
+	color: white;
+	padding: 2rem;
+}

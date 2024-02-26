@@ -1,0 +1,29 @@
+.titudiv{
+	text-align:center;
+	color:white;
+	background-color:#64343c;
+	}
+.titudiv2{
+	text-align:left;
+	color:#64343c;
+	background-color:white;
+	}
+.piediv{
+	text-align:center;
+	color:white;background-color:black;
+	font-size:5;font-weight:bold;
+	}
+.cabezera{
+	color:gray;
+	font-size:10;
+	font-family:Open Sans;
+	font-weight:bold;
+	}
+.ct{
+	background-color:black;
+	opacity:0.7;
+	}
+a{
+	text-decoration:none;
+	color:white;
+}

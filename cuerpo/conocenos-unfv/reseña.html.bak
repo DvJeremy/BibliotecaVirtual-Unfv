@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Biblioteca UNFV</title>
+		<meta name="Keywords" content="unfv,biblioteca,virtual" />
+		<meta name="Description" content="Biblioteca virtual UNFV"/>
+		<meta http-equiv="Content-Languaje" content="es"/>
+		<meta name="Distribution" content="global" />
+		<meta name="Robots" content="all" />
+	</head>
+	<body marginwidth="70px" leftmargin="70px" bgcolor="#64343c" >
+		<div align="center" style="background-color:orange">
+			<h2><font color="white">RESE&Ntilde;A HISTORICA</font></h2>
+		</div>
+		<table>
+			<tr>
+				<td width="400"><img src="conocenos-unfv/imagenes/villarreal.jpg"></td>
+				<td>
+				<font color="white" size="4">La Universidad Nacional Federico Villarreal (UNFV) se cre&oacute como Universidad Aut&oacute;noma el 30 de octubre de 1963, 
+				mediante ley n&uacutemero 14692, promulgada por el gobierno constitucional del presidente Fernando Belaunde Terry.<br>
+				La UNFV ostenta con orgullo el nombre del insigne sabio peruano Federico Villarreal, quien durante su vida incursion&oacute en 
+				casi todos los campos del saber humano, dedic&aacutendose íntegramente al estudio de las ciencias, la investigaci&oacute;n y a la 
+				docencia.El origen de la Universidad Villarreal se remonta a la &eacute;poca en la que funcion&oacute como filial en Lima de la 
+				Universidad Comunal del Centro (UCC) del Per&uacute, fundada en diciembre de 1959 y que cont&oacute con filiales de acuerdo a las 
+				especialidades que ofrec&iacute;a.<br></font></p>
+				</td>
+			</tr>
+		</table>
+		<p><font color="white" size="4">
+				Como la actividad acad&eacute;mica de la Universidad Comunal estaba circunscrita a la ciudad de Huancayo, en 1960 un grupo de empleados 
+				bancarios lime&ntilde;os realizaron una asamblea en la cual acordaron constituirse en comit&eacute; profacultades de Lima.
+				El doctor Javier Pulgar Vidal, hombre de ciencia e ilustre maestro universitario fue el gestor de la universidad; lo acompa&ntilde;aron Ramiro
+				Prial&eacute, Jesús V&eacuteliz Liz&aacute;rraga, C&eacute;sar Sol&iacute;s, Manuel Gutièrrez Aliaga y Luis Vega Fernández en la redacci&oacute;n y firma de 
+				la escritura de fundaci&oacute;n.<br>
+				En 1961 se reconoci&oacute; a la UCC como Universidad Nacional del Centro del Per&uacute;. Al surgir diferencias con la sede central, los docentes y 
+				estudiantes de la filial Lima, en sesi&oacute;n de consejo universitario del 21 de enero de 1963, declararon su autonom&iacute;a y solicitaron al
+				gobierno se les reconozca como tal.<br>
+				El 18 de octubre de 1963 el Congreso de la Rep&uacuteblica, presidido por el senador Julio de la Piedra, aprob&oacute la ley 14692 que reconoce como Universidad
+				Nacional Federico Villarreal a la ex filial de Lima, promulgada por el gobierno central el 30 de octubre del mismo a&ntilde;o.</font></p>
+
+		<br>
+	</body>
+</html>
